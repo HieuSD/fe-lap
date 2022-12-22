@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,206 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <h1>lap</h1>
+    <!-- .class -->
+    <div class="class1">1</div>
+    <!-- .class1.clas2 -->
+    <div class="class1 class2">2</div>
+    <!-- .class1 .class2 -->
+    <div class="class1">
+        <div class="class2">3</div>
+    </div>
+    <!-- #id -->
+    <div id="id1">4</div>
+    <!-- element -->
+    <h1>element</h1>
+    <!-- element-class -->
+    <h1 class="element-class">element-class</h1>
+    <!-- element,element -->
+    <h2>element,element</h2>
+    <!-- element element -->
+    <div>
+        <p>element element</p>
+    </div>
+    <!-- element>element -->
+    <div>
+        <p>element>element</p>
+        <ul>
+            <li>
+                <p>element>element</p>
+            </li>
+        </ul>
+    </div>
+    <!-- element+element -->
+    <div>
+        <h3>element+element</h3>
+    </div>
+    <h3>element+element</h3>
+    <!-- element1~element2 -->
+    <ul>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+    </ul>
+    <h4>element1~element2</h4>
+    <ul>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+    </ul>
+    <!-- attribute -->
+    <a href="">attribute</a>
+    <a href="" target="">attribute</a>
+    <!-- [attribute=value] -->
+    <a href="">[attribute=value]</a>
+    <a href="" target="_blank">[attribute=value]</a>
+    <!-- [attribute~=value] -->
+    <a href="">[attribute~=value]</a>
+    <a href="" title="suduyhieu">[attribute~=value]</a>
+    <br>
+    <!-- [attribute|=value] -->
+    <a href="" title="su">[attribute|=value]</a>
+    <a href="" title="su-duy-hieu">[attribute|=value]</a>
+    <a href="" title="abc">[attribute|=value]</a>
+    <!-- [attribute^=value] -->
+    <p class="sdh">[attribute^=value]</p>
+    <p class="sdhi">[attribute^=value]</p>
+    <a href="" class="sdh">[attribute^=value]</a>
+    <br>
+    <!-- [attribute$=value] -->
+    <p class="classTest">[attribute$=value]</p>
+    <p class="testClass">[attribute$=value]</p>
+    <!-- [attribute*=value]	-->
+    <p class="suduyhieu">[attribute*=value]</p>
+    <p class="esuduyhieue">[attribute*=value]</p>
+    <p class="esuduy">[attribute*=value]</p>
+    <!-- :active -->
+    <ul class="active">
+        <li>:active</li>
+        <li>:active</li>
+    </ul>
+    <!-- ::after -->
+    <p class="after">::after</p>
+    <!-- ::before -->
+    <p class="before">::before</p>
+    <!-- :checked -->
+    <!-- :default -->
+    <form action="" class="checked">
+        <input type="radio" checked="checked" value="male" name="gender">checked<br>
+        <input type="radio" value="female" name="gender">checked<br>
+        <!-- :disabled -->
+        :disabled <input type="text" disabled="disabled" value="disabled"><br>
+        <!-- :enabled -->
+        :enabled <input type="email" value="nguyenvanA@gmail.com">
+        <!-- focus -->
+        focus <input type="text">
+        <!-- :in-range -->
+        <!-- :out-of-range -->
+        in-range <input type="number" min="2" max="5" value="3">
+        
+    </form>
+    <!-- :empty -->
+    <p>empty</p>
+    <p></p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nam, eaque eos quaerat aliquam nostrum.</p>
+    <!-- :first-child -->
+    <!-- :last-child -->
+    <ul class="firstChild">
+        <li>:frist-child</li>
+        <li>b</li>
+        <li>:last-child</li>
+    </ul>
+    <!-- ::first-letter -->
+    <ul class="firstLetter">
+        <li>first-letter</li>
+        <li>first-letter</li>
+        <li>first-letter</li>
+    </ul>
+    <!-- ::first-line -->
+    <p class="firstLine">First line First line First line First line First line First line First line First line First line First line First line First line First line First line First line First line First line First line First line First line First line First line First line First line First line First line First line First line First line First line First line First line First line First line First line</p>
+    <!-- :first-of-type -->
+    <!-- :last-of-type -->
+    <h6>first of type</h6>
+    <h6>between of type</h6>
+    <h6>last of type</h6>
+    <!-- :hover -->
+    <div class="hover">hover</div>
+    <!-- :lang(language) -->
+    <p lang="en">lang(en)</p>
+    <p lang="it">lang(it) = red</p>
+    <!-- :link -->
+    <div class="link">
+        <a href="">link</a>
+        <a href="">link</a>
+    </div>
+    <!-- ::marker -->
+    <ul class="maker">
+        <li>maker</li>
+        <li>maker</li>
+        <li>maker</li>
+    </ul>
+    <!-- :not(selector) -->
+    <div class="notSelector">
+        <p>p</p>
+        <h5>not(p)</h5>
+    </div>
+    <!-- :nth-child(n) -->
+    <ul class="nthChild">
+        <li>a</li>
+        <li>:nth-child(2)</li>
+        <li>c</li>
+    </ul>
+    <!-- :nth-last-child(n) -->
+    <ul class="nthLastChild">
+        <li>a</li>
+        <li>:nth-last-child(2)</li>
+        <li>c</li>
+    </ul>
+    <!-- :nth-last-of-type(n) -->
+    <!-- :nth-of-type(n) -->
+    <h4>a</h4>
+    <h4>b</h4>
+    <h4>:nth-last-of-type(n)</h4>
+    <h4>:nth-of-type(n)</h4>
+    <!-- :only-of-type -->
+    <div>
+        <h3>:only-of-type</h3>
+    </div>
+    <div>
+        <h3>:only-of-type</h3>
+        <h3>:only-of-type</h3>
+    </div>
+    <!-- :only-child -->
+    <div>
+        <h5>:only-child</h5>
+    </div>
+    <div>
+        <h5>:only-child</h5>
+        <h2>:only-child</h2>
+    </div>
+    <!-- :optional -->
+    <!-- ::placeholder -->
+    <!-- :required -->
+    <form action="">
+        :optional <input type="text" required placeholder=":optional"><br>
+        age: <input type="text"><br>
+        <!-- :read-only -->
+        read only: <input type="text" value="::placeholder" readonly>
+        <!-- :read-write -->
+        read write <input type="text" value=":read-write"><br>
+        <!-- :valid -->
+        :valid <input type="email">
+    </form>
+    <!-- ::selection -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, natus atque! Deserunt ipsa possimus sapiente aliquid corporis alias sunt voluptate cumque, esse cum eveniet, minima reprehenderit, odit provident aliquam incidunt.</p>
+    <!-- :target -->
+    <p><a href="#target1">targer1</a></p>
+    <p><a href="#target2">target2</a></p>
+    <p id="target1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, fugit?</p>
+    <p id="target2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ipsam!</p>
+    <!-- :visited -->
+    <a href="http://facebook.com">facebook</a>
+    <a href="http://zing.vn">zing</a>
+    
 </body>
+
 </html>

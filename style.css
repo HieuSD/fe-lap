@@ -1,0 +1,252 @@
+/* .class */
+.class1{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+}
+/* .class1.class2 */
+.class1.class2{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+/* .class1 .class2 */
+.class1 .class2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+/* #id */
+#id1{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+}
+/* * */
+*{
+    margin: 10px;
+}
+/* element */
+h1{
+    text-decoration: underline;
+}
+/* element-class */
+h1.element-class{
+    text-decoration: line-through;
+}
+/* element,element */
+h1, h2{
+    color: blue;
+}
+/* element element */
+div p{
+    font-size: 2em;
+}
+/* element>element */
+div>p{
+    color: red;
+}
+/* element+element */
+div + h3 {
+    color: blueviolet;
+}
+/* element1~element2 */
+h4 ~ ul {
+    background-color: beige;
+}
+/* attribute */
+a[target]{
+    color: red;
+}
+/* [attribute=value] */
+a[target=_blank]{
+    color: blue;
+}
+/* [attribute~=value] */
+a[title~=suduyhieu]{
+    color: pink;
+}
+/* [attribute|=value] */
+a[title|=su]{
+    color: chartreuse;
+}
+/* [attribute^=value] */
+p[class^="sdh"]{
+    color: darkgoldenrod;
+}
+/* [attribute$=value] */
+p[class$=Test]{
+    color: cyan;
+}
+/* [attribute*=value] */
+p[class*=suduyhieu]{
+    color: red;
+}
+/* :active */
+.active li:active{
+    background-color: crimson;
+}
+/* ::after */
+.after::after{
+    content: " - 123456789";
+}
+/* ::before */
+.before::before{
+    content: " 123456789 -";
+}
+/* :checked */
+input:checked{
+    height: 30px;
+    width: 30px;
+}
+input:default{
+    box-shadow: 0 0 1px 1px blue;
+}
+/* :disabled */
+input[type=text]:disabled{
+    background-color: cadetblue;
+}
+/* :enabled */
+input[type=email]:enabled{
+    background-color: crimson;
+}
+/* :focus */
+input:focus{
+    background-color: yellow;
+}
+/* :in-range */
+input:in-range{
+    border: 5px solid yellow;
+}
+/* :out-of-range */
+input:out-of-range{
+    border: 5px solid lime;
+}
+/* :invalid */
+input:invalid{
+    border: 5px solid red;
+}
+/* :empty */
+p:empty{
+    width: 100px;
+    height: 20px;
+    background-color: cyan;
+}
+/* :first-child */
+.firstChild li:first-child{
+    background-color: red;
+}
+/* :last-child */
+.firstChild li:last-child{
+    background-color: blue;
+}
+/* ::first-letter */
+.firstLetter li::first-letter{
+    font-size: 2em;
+    color: red;
+}
+/* ::first-line */
+.firstLine::first-line{
+    color: red;
+}
+/* :first-of-type */
+h6:first-of-type{
+    color: red;
+}
+/* :last-of-type */
+h6:last-of-type{
+    color: blue;
+}
+/* :hover */
+.hover{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}
+.hover:hover{
+    width: 200px;
+    height: 200px;
+}
+/* :lang(language) */
+p:lang(it){
+    color: red;
+}
+/* :link */
+.link a:link{
+    background-color: blue;
+}
+/* ::maker */
+::marker{
+    color: red;
+}
+/* :not(selector) */
+.notSelector{
+    color: red;
+}
+.notSelector:not(p){
+    color: blue;
+}
+/* :nth-child(n) */
+.nthChild li:nth-child(2){
+    color: red;
+}
+/* :nth-last-child(n) */
+.nthLastChild li:nth-last-child(2){
+    color: red;
+}
+/* :nth-last-of-type(n) */
+h4:nth-last-of-type(2){
+    color: red;
+}
+/* :nth-of-type(n) */
+h4:nth-of-type(5){
+    color: blue;
+}
+/* :only-of-type */
+h3:only-of-type{
+    color: red;
+}
+/* :only-child */
+h5:only-child{
+    color: red;
+}
+/* :optional */
+input:optional{
+    background-color: lime;
+}
+/* ::placeholder */
+::placeholder{
+    color: red;
+}
+/* :read-only */
+input:read-only{
+    background-color: cornsilk;
+}
+/* :read-write */
+input:read-write{
+    background-color: aquamarine;
+}
+/* :required */
+input:required{
+   font-size: 3em;
+}
+/* :valid */
+input:valid{
+    background-color: aquamarine;
+}
+/* :root */
+:root{
+    background-color: aliceblue;
+}
+/* ::selection */
+::selection{
+    background-color: brown;
+}
+/* :target */
+:target{
+    border: 1px solid lime;
+}
+/* :visited */
+a:visited{
+    color: red;
+}
